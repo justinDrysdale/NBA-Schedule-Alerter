@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <description>Fires game notification event</description>
+        <event_name>x_palrs_nba_schedu.notify</event_name>
+        <fired_by/>
+        <queue/>
+        <suffix>notify</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>justin.d</sys_created_by>
+        <sys_created_on>2018-12-05 22:41:02</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1d0ae9c8139aaf008cd95eff3244b00f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_palrs_nba_schedu.notify</sys_name>
+        <sys_package display_value="NBA Schedule Alerter" source="x_palrs_nba_schedu">a7b42857133927008cd95eff3244b080</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NBA Schedule Alerter">a7b42857133927008cd95eff3244b080</sys_scope>
+        <sys_update_name>sysevent_register_1d0ae9c8139aaf008cd95eff3244b00f</sys_update_name>
+        <sys_updated_by>justin.d</sys_updated_by>
+        <sys_updated_on>2018-12-05 22:41:02</sys_updated_on>
+        <table/>
+    </sysevent_register>
+</record_update>

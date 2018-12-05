@@ -3,6 +3,8 @@
     <element label="NBA Schedule" max_length="40" name="x_palrs_nba_schedu_nba_schedule" type="collection">
         <element label="Game" max_length="40" name="game" type="string"/>
         <element label="Game Date" max_length="40" name="game_date" type="glide_date"/>
+        <element label="Opponent" max_length="40" name="opponent" type="string"/>
+        <element label="Start Time" max_length="40" name="start_time" type="string"/>
         <element label="Team" max_length="40" name="team" type="string"/>
     </element>
 </database>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element extends="sys_import_set_row" label="Lakers 2019 Schedule" max_length="40" name="x_palrs_nba_schedu_lakers_schedule_2019" type="collection">
+        <element default="40" label="Team" max_length="40" name="team" type="string"/>
         <element attributes="import_attribute_name=Date,edge_encryption_enabled=true" label="Date" max_length="40" name="u_date" type="string"/>
         <element attributes="import_attribute_name=Game" label="Game" max_length="40" name="u_game" type="integer"/>
         <element attributes="import_attribute_name=Opponent,edge_encryption_enabled=true" label="Opponent" max_length="40" name="u_opponent" type="string"/>

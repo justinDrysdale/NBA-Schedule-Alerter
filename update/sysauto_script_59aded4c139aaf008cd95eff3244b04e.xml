@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>Check for Game today</name>
+        <run_as display_value="Drysdale, Justin -- Local">d83757ad0a0a3c80018beb4fdff0ae4b</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2018-12-05 22:56:00</run_start>
+        <run_time>1970-01-01 08:01:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[var today = new GlideDate().getDisplayValue();//mm-dd-yyyy
+var gr = new GlideRecord("x_palrs_nba_schedu_nba_schedule");
+    gr.query();
+    while(gr.next()) {
+	    if(today == gr.game_date) {
+			var game_and_time = [gr.game, gr.start_time];
+			var teams = [gr.team, gr.opponent];
+		   gs.eventQueue("x_palrs_nba_schedu.notify", game_and_time, teams);
+		   }
+		
+	}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>justin.d</sys_created_by>
+        <sys_created_on>2018-12-05 22:56:44</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>59aded4c139aaf008cd95eff3244b04e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Check for Game today</sys_name>
+        <sys_package display_value="NBA Schedule Alerter" source="x_palrs_nba_schedu">a7b42857133927008cd95eff3244b080</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NBA Schedule Alerter">a7b42857133927008cd95eff3244b080</sys_scope>
+        <sys_update_name>sysauto_script_59aded4c139aaf008cd95eff3244b04e</sys_update_name>
+        <sys_updated_by>justin.d</sys_updated_by>
+        <sys_updated_on>2018-12-05 23:04:58</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

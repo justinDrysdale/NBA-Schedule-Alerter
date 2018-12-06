@@ -49,7 +49,7 @@
         <push_message_only>false</push_message_only>
         <recipient_fields/>
         <recipient_groups/>
-        <recipient_users>d386cbd40a0a3c8001ca0090915b189b</recipient_users>
+        <recipient_users>d386cbd40a0a3c8001ca0090915b189b,5394b5640a0a3c80007b9dd9ee8c7c44</recipient_users>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
@@ -62,7 +62,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>d09be9c8139aaf008cd95eff3244b038</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Game Notify</sys_name>
         <sys_overrides/>
         <sys_package display_value="NBA Schedule Alerter" source="x_palrs_nba_schedu">a7b42857133927008cd95eff3244b080</sys_package>
@@ -71,7 +71,7 @@
         <sys_scope display_value="NBA Schedule Alerter">a7b42857133927008cd95eff3244b080</sys_scope>
         <sys_update_name>sysevent_email_action_d09be9c8139aaf008cd95eff3244b038</sys_update_name>
         <sys_updated_by>justin.d</sys_updated_by>
-        <sys_updated_on>2018-12-05 23:11:02</sys_updated_on>
+        <sys_updated_on>2018-12-06 00:02:25</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

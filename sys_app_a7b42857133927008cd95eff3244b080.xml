@@ -16,21 +16,21 @@
         <scoped_administration>false</scoped_administration>
         <short_description/>
         <source>x_palrs_nba_schedu</source>
-        <store_correlation_id/>
+        <store_correlation_id>REPOAPP0000090915</store_correlation_id>
         <store_url/>
         <sys_class_name>sys_app</sys_class_name>
         <sys_code/>
         <sys_created_by>justin.d</sys_created_by>
         <sys_created_on>2018-11-20 23:26:50</sys_created_on>
         <sys_id>a7b42857133927008cd95eff3244b080</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>justin.d</sys_updated_by>
-        <sys_updated_on>2018-11-20 23:26:50</sys_updated_on>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>JDrysdal</sys_updated_by>
+        <sys_updated_on>2018-12-06 02:16:58</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role display_value="x_palrs_nba_schedu.user" name="x_palrs_nba_schedu.user">bbb46cd7137927008cd95eff3244b0c6</user_role>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
     </sys_app>
 </record_update>

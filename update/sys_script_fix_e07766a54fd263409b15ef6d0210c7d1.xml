@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <before>false</before>
+        <description>Run the data import on app installation.</description>
+        <flush_cache>false</flush_cache>
+        <name>Run Data Import on install</name>
+        <run_once>true</run_once>
+        <script><![CDATA[var q = "name=Populate Laker Schedules^ORname=Populate Clippers Schedule";
+var gr = new GlidRecord("scheduled_import_set");
+    gr.addEncodedQuery(q);
+    gr.query();
+    if(gr.next()) {
+      gs.executeNow(gr);
+    }]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>JDrysdal</sys_created_by>
+        <sys_created_on>2018-12-10 19:06:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e07766a54fd263409b15ef6d0210c7d1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Run Data Import on install</sys_name>
+        <sys_package display_value="NBA Schedule Alerter" source="x_palrs_nba_schedu">a7b42857133927008cd95eff3244b080</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NBA Schedule Alerter">a7b42857133927008cd95eff3244b080</sys_scope>
+        <sys_update_name>sys_script_fix_e07766a54fd263409b15ef6d0210c7d1</sys_update_name>
+        <sys_updated_by>JDrysdal</sys_updated_by>
+        <sys_updated_on>2018-12-10 19:26:00</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

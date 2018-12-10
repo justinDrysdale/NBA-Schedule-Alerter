@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="scheduled_import_set">
+    <scheduled_import_set action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <condition/>
+        <conditional>false</conditional>
+        <data_source display_value="Clippers 2019 Schedule">00576c1b137927008cd95eff3244b0c3</data_source>
+        <map/>
+        <name>Populate Clippers Schedule</name>
+        <order/>
+        <parent/>
+        <post_script/>
+        <post_script_bool>false</post_script_bool>
+        <pre_script/>
+        <pre_script_bool>false</pre_script_bool>
+        <run_as display_value="Drysdale, Justin">d386cbd40a0a3c8001ca0090915b189b</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2018-12-10 19:18:00</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>daily</run_type>
+        <sys_class_name>scheduled_import_set</sys_class_name>
+        <sys_created_by>JDrysdal</sys_created_by>
+        <sys_created_on>2018-12-10 19:19:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d5cba6254fd263409b15ef6d0210c730</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Populate Clippers Schedule</sys_name>
+        <sys_package display_value="NBA Schedule Alerter" source="x_palrs_nba_schedu">a7b42857133927008cd95eff3244b080</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NBA Schedule Alerter">a7b42857133927008cd95eff3244b080</sys_scope>
+        <sys_update_name>scheduled_import_set_d5cba6254fd263409b15ef6d0210c730</sys_update_name>
+        <sys_updated_by>JDrysdal</sys_updated_by>
+        <sys_updated_on>2018-12-10 19:23:08</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </scheduled_import_set>
+</record_update>
